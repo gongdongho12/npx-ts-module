@@ -14,7 +14,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = "https://github.com/gongdongho12/npx-ts-module";
+const GIT_REPO = "https://github.com/gongdongho12/typescript-npm-module";
 
 if (projectName !== ".") {
 	try {
